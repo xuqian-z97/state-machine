@@ -1,0 +1,13 @@
+package com.zxq.domain;
+
+import com.zxq.config.OrderStatus;
+import lombok.Data;
+import lombok.experimental.Accessors;
+
+@Data
+@Accessors(chain = true)
+public class Order {
+
+    private OrderStatus status;
+
+}
